@@ -1,0 +1,142 @@
+a { 
+    text-decoration: none !important;
+    color: #fff;
+}
+ul{
+    list-style:none;
+}
+
+body{
+    font-family: 'Quantico';
+}
+
+.title a{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    left: 18px;
+    top: 18px;
+    position: fixed;
+    display: block;
+    transition: background 0.6s ease-out 0s;
+    
+}
+.title a.icon {
+    background: #29292a none repeat scroll 0 0;
+    left: 13px;
+    padding: 9px 12px 6px;
+    top: 13px;
+}
+
+.title a:hover{
+    background: #7d7d7d none repeat scroll 0 0;
+    color: #fff;
+}
+.title a i{
+    font-size: 1.333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.title a span{
+    font-size: 1.333em;
+    line-height: 0.75em;
+    vertical-align: -10%;
+    margin: 5px;
+}
+.mainnav{
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.navwrap{
+    display: inline-block;
+}
+.menu{
+    float: left;
+    padding: 20px 10px 30px 15px;
+    display: none;
+}
+.menu li{
+    float: left;
+}
+.mainnav .menu a {
+    color: #7d7d7d;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px 20px;
+    text-transform: uppercase;
+}
+.mainnav .menu a:hover {
+    color: #1f1b1b;
+}
+.mainnav .toggle {
+    display: inline-block;
+    float: right;
+    padding: 20px 10px 30px 15px;
+    cursor:pointer
+}
+.mainnav .toggle i {
+    color: #7d7d7d;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.mainnav .toggle i:hover {
+    color: #1f1b1b;
+}
+.posts{
+    padding-top: 50px;
+    max-width: 500px;
+    min-height: 450px;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 760px;
+    width: 90%;
+}
+.post{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #d7d7d7;
+    position:relative;
+    height: 400px;
+}
+.post .content{
+    padding: 20px;
+    height: inherit;
+}
+.post .content h2 {
+    color: #666;
+    font-weight: 300;
+}
+.post .content p {
+    color: #000;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    letter-spacing:8px;
+}
+.post-img{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    height: inherit;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 760px;
+    width: 90%;
+}
+.footer{
+    margin-top: 30px;
+    clear: both;
+    color: #a6a6a6;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+
